@@ -1,0 +1,39 @@
+#search {
+    flex: 3;
+}
+
+.container-title {
+    flex: 2;
+}
+
+.def {
+    background-color:transparent;
+    width: 100%;
+    border: 3px solid black;
+    padding: 5%;
+    text-align: center;
+}
+
+.term-container {
+    flex-direction: column;
+    flex:1;
+}
+
+.def-container {
+    flex: 2;
+    list-style-type: none;
+}
+
+.likes {
+    background-color: #ffd966 !important;
+    color: black !important;
+}
+
+.add {
+    background-color: #93c47d !important;
+    flex: 1;
+}
+
+.row-2 .def {
+    
+}

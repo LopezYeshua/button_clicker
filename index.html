@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css_libraries/dojo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav flex">
+            <h1 class="container-title">Dojonary</h1>
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button onclick="changeText(this)"class="btn flex">Login</button>
+        </div>
+        <div class="content-container flex">
+            <div class="row flex">
+                <div class="def flex">
+                    <div class="term-container flex">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="like(count1), alert('Ninja was liked')" class="btn likes"> <span id="count1">0</span> likes</button>
+                    </div>
+                    <p class="def-container">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="def flex">
+                    <div class="term-container flex">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="like(count2), alert('Ninja was liked')" class="btn likes"> <span id="count2">0</span> likes</button>
+                    </div>
+                    <p class="def-container">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="def">
+                    <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                    <button  onclick="hide(this)" class="btn add">Add Definition</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

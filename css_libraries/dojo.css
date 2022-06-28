@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: normal;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* splits the content blocks into columns */
+.content-container {
+    width: 100%;
+    min-height: 600px;
+    padding: 3% 0%;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start !important;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 50px;
+    padding: 25px;
+    background-color: #cccccc;
+    gap: 2rem;
+}
+
+.btn {
+    padding: .5em 1em;
+    background-color: #2b78e4;
+    box-shadow: 2px 2px 1px black;
+    color: white;
+    flex: .5;
+    margin: 10%
+}
+
+.row {
+    min-height: 100px;
+    min-width: 100px;
+    gap: 1rem;
+    flex: 2;
+    flex-direction: column;
+}
+
+.row-2 {
+    min-height: 100px;
+    width: 100px;
+    gap: 1rem;
+    flex: 1;
+    flex-direction: column;
+}
+
+.col {
+    background-color:#5f9fa0;
+    width: 100px;
+    height: 100px;
+}
+
+
+.user-card-container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.user-card-nav {
+    background-color: #17a2b8;
+    height: 100px;
+    width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
